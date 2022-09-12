@@ -1,4 +1,4 @@
-package com.solncev.net;
+package com.solncev.net.client;
 
 import java.io.BufferedReader;
 import java.io.IOException;
