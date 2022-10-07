@@ -1,4 +1,4 @@
-package com.solncev.net.server;
+package com.solncev.net.servlet;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

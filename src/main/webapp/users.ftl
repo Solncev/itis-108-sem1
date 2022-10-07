@@ -7,7 +7,7 @@
     Hello,
     <br>
     <#list users as u>
-        ${u.firstname} ${u.lastname}
+        ${u.firstname} ${u.lastname} ${u.login}
         <br>
     </#list>!
 </#macro>

@@ -1,4 +1,4 @@
-package com.solncev.net.server;
+package com.solncev.net.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
