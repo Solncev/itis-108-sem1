@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax test</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(document).on("click", "#ajax-button", function () {
+                console.log("Debug");
+                $.get("/ajax/hello", function (response) {
+                    $("#ajax-div").text(response);
+                })
+            }
+        )
+    </script>
+</head>
+<body>
+<div id="ajax-div">
+</div>
+<form>
+    <input type="button" id="ajax-button" value="Get message">
+</form>
+</body>
+</html>
