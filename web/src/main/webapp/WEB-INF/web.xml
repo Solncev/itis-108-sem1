@@ -42,7 +42,7 @@
 
     <error-page>
         <error-code>404</error-code>
-        <location>/404.html</location>
+        <location>/src/main/webapp/404.html</location>
     </error-page>
 
     

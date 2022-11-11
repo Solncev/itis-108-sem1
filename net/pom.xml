@@ -2,22 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>itis-108-sem1</artifactId>
+        <groupId>com.solncev</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.solncev</groupId>
-    <artifactId>itis-108-sem1</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>web</module>
-        <module>net</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>net</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <your.own.property>1.2.3</your.own.property>
     </properties>
 
 </project>

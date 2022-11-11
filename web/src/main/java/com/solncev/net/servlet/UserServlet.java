@@ -1,6 +1,5 @@
 package com.solncev.net.servlet;
 
-import com.solncev.net.dto.UserDto;
 import com.solncev.net.service.UserService;
 import com.solncev.net.service.impl.UserServiceImpl;
 
@@ -10,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 @WebServlet(name = "userServlet", urlPatterns = "/users")
 public class UserServlet extends HttpServlet {
