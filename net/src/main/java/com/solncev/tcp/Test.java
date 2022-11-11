@@ -13,9 +13,7 @@ public class Test {
         System.out.println(client.sendMessage("1234"));
         System.out.println(client.sendMessage("bye"));
 
-
         System.out.println(client.sendMessage("123"));
-
 
         client.stopClient();
     }
